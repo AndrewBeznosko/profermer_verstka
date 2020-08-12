@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProFermer</title>
+
+    <!-- fonts.google -->
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body class="d-flex h-100 text-white bg-dark login-page">
+
+    <div class="container d-flex w-100 h-100 mx-auto flex-column">
+        <nav class="navbar navbar-expand-lg navbar-dark mb-auto mt-3">
+            <a class="navbar-brand" href="#">
+                <img src="./img/logo.svg" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample07XL"
+                aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample07XL">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" aria-current="page" href="#">Блог</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Школа</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Контакты</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown07XL" data-toggle="dropdown"
+                            aria-expanded="false">RU</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown07XL">
+                            <li><a class="dropdown-item" href="#">RU</a></li>
+                            <li><a class="dropdown-item" href="#">EN</a></li>
+                            <li><a class="dropdown-item" href="#">UK</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <main class="my-5 py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="login__title">PROFERMER</h1>
+                    <p class="login__undertitle">Агробизнес нового поколения</p>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-end">
+                    <div class="card card--form text-white">
+                        <div class="card-body card-body--form p-0">
+                            <div class="card-header--form text-center">
+                                <h5 class="card-title card-title--form">Войдите в личный кабинет</h5>
+                                <p class="card-text card-text--form">Нет аккаунта? <a class="text-success"
+                                        href="#">Регистрация здесь</a></p>
+                            </div>
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1" class="form-label">Почта</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="example@mail.ru">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1" class="form-label">Пароль</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1"
+                                        placeholder="•••••••••••">
+                                </div>
+                                <div class="form-btns">
+                                    <button type="submit" class="btn card__btn btn-success">Войти</button>
+                                    <button type="button" class="btn btn-link card__btn-link text-muted pr-0">Забыли
+                                        пароль?</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="mt-auto py-4 mb-1">
+            <div class="row justify-content-between">
+                <div class="col-lg-5">
+                    <nav class="nav">
+                        <a class="nav-link text-muted pl-0" href="#">Политика конфиденциальности</a>
+                        <a class="nav-link text-muted" href="#">Публичная оферта</a>
+                    </nav>
+                </div>
+                <div class="col-lg-5">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <nav class="nav">
+                            <a class="nav-link px-2" href="#"><img src="./img/socials/fb.svg" alt="fb"></a>
+                            <a class="nav-link px-2" href="#"><img src="./img/socials/vk.svg" alt="vk"></a>
+                            <a class="nav-link px-2" href="#"><img src="./img/socials/tg.svg" alt="tg"></a>
+                            <a class="nav-link px-2" href="#"><img src="./img/socials/Insta.svg" alt="Insta"></a>
+                        </nav>
+                        <nav class="nav">
+                            <a class="nav-link" href="#"><img src="./img/logos/agrarno.svg" alt="agrarno"></a>
+                            <a class="nav-link pr-0" href="#"><img src="./img/logos/agrarno-wiki.svg"
+                                    alt="agrarno-wiki"></a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <!-- JavaScript and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
